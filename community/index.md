@@ -81,6 +81,9 @@ mulesoft_user:
 cleartax_in_user:
   image_path: assets/images/users/cleartax_in_logo.png
   alt: "ClearTax.in Logo"
+makerbot_user:
+  image_path: assets/images/users/makerbot_logo.png
+  alt: "Makerbot Logo"
 ---
 
 ## Engage the community and get support
@@ -151,6 +154,7 @@ The Spinnaker OSS project was started at Netflix, and today thrives on the contr
   </div>
   <div class="clearfix flex items-center mb3">
     {% include spinnaker_user id="weatherbug_user" %}
+    {% include spinnaker_user id="makerbot_user" %}
   </div>
 </div>
 
